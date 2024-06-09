@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet x-devs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href= "./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1> Compiler Heroes</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagem/seta.png" alt="seta para voltar a imagem">
+        </button>
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">DEV Man</h2>
+
+                <img class="imagem-personagem" src="src/imagem/1 DEV Man.png" alt="Dev Man" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">  DEV Man é um desenvolvedor de software talentoso e apaixonado pela arte da programação. Com uma mente analítica e criativa, ele é especializado em linguagens como Python, JavaScript e C++. Ele é altamente colaborativo e adora resolver problemas complexos, transformando algoritmos abstratos em produtos funcionais e de alta qualidade. Sua curiosidade insaciável e seu compromisso com a excelência fazem dele uma peça fundamental em qualquer equipe de desenvolvimento de software.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+
+                <h2 class="nome">bat Analyst</h2>
+
+                <img class="imagem-personagem" src="src/imagem/2 Bat Dev.png" alt="Bat Analyst" />
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Bat Analyst é uma desenvolvedora de dados habilidosa e orientada para soluções. Ela é especializada em construir pipelines de dados eficientes, manipular grandes conjuntos de dados e implementar algoritmos de aprendizado de máquina. Com um profundo entendimento de linguagens como SQL, R e Scala, Bat transforma dados brutos em insights valiosos que impulsionam a tomada de decisões estratégicas dentro de uma organização.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+
+                <h2 class="nome">Coringueto JS</h2>
+                <img class="imagem-personagem" src="src/imagem/3 Coringueto JS.png" alt="Coringueto JS" />
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Coringueto JS é um especialista em experiência do usuário (UX) apaixonado por criar produtos digitais que são tanto bonitos quanto funcionais. Com uma compreensão profunda do comportamento do usuário e das melhores práticas de design, ele lidera a criação de interfaces intuitivas e envolventes. Sua abordagem centrada no usuário e seu foco na acessibilidade garantem que cada interação com o produto seja agradável e eficiente.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+
+                <h2 class="nome">IA Woman</h2>
+                <img class="imagem-personagem" src="src/imagem/4 IA Woman.png" alt="IA Woman" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">IA Woman é uma desenvolvedora de inteligência artificial apaixonada e inovadora, está constantemente explorando novas técnicas e abordagens para melhorar a capacidade das máquinas de raciocinar, aprender e tomar decisões autonomamente. Sua ética rigorosa e seu compromisso com a transparência garantem que suas criações sejam responsáveis e éticas, movida pela crença de que a inteligência artificial tem o potencial de transformar positivamente o mundo, e ela trabalha incansavelmente para tornar essa visão uma realidade.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+
+                <h2 class="nome">Planet Man</h2>
+
+                <img class="imagem-personagem" src="src/imagem/5 Planet Man.png" alt="Planet Man" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Planet Man é um desenvolvedor web versátil e habilidoso, apaixonado por criar experiências online excepcionais. Ele é especializado em front-end e back-end, dominando tecnologias como HTML, CSS, JavaScript, Node.js e React. Sua capacidade de traduzir designs criativos em código limpo e funcional faz dele um ativo inestimável para qualquer equipe de desenvolvimento web. Sua abordagem pragmática e sua paixão por aprender constantemente garantem que ele esteja sempre na vanguarda das últimas tendências tecnológicas.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+
+                <h2 class="nome"> Green Compiler </h2>
+
+                <img class="imagem-personagem" src="./src/imagem/6 Compi Green.png" alt=" Green Compiler" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Green Compiler é um líder experiente em tecnologia da informação (TI) com uma habilidade excepcional para equilibrar as necessidades técnicas e comerciais de uma organização. Ele é especializado em gerenciar equipes multidisciplinares, implementar soluções tecnológicas escaláveis e garantir a segurança e o desempenho dos sistemas de informação. Sua visão estratégica e sua capacidade de tomar decisões rápidas e informadas fazem dele um líder confiável em um mundo digital em constante evolução.</p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagem/seta.png" alt="seta para avançar a imagem">
+        </button>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+    
+</body>
+</html>
